@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0A0A0A">
+  <meta name="robots" content="noindex">
+  <title>Baixar o Sound System Go</title>
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <style>
+    html, body { margin: 0; height: 100%; background: #0A0A0A; color: #F5F5F5; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+    main { min-height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px; padding: 24px; text-align: center; box-sizing: border-box; }
+    img { width: 112px; height: 112px; border-radius: 26px; }
+    h1 { margin: 0; font-size: 26px; }
+    p { margin: 0; color: #A5A5A5; font-size: 16px; }
+    a.btn { display: block; min-width: 260px; padding: 16px 28px; border-radius: 999px; background: #FFBF00; color: #0A0A0A; font-weight: 800; font-size: 17px; text-decoration: none; }
+    a.link { color: #FFBF00; font-size: 15px; }
+  </style>
+</head>
+<body>
+  <main>
+    <img src="/icons/Icon-192.png" alt="Sound System Go">
+    <h1>Sound System Go</h1>
+    <p id="msg">Abrindo a Play Store…</p>
+    <a id="play" class="btn" href="https://play.google.com/store/apps/details?id=com.soundsystemgo.app">Baixar na Play Store</a>
+    <a id="web" class="link" href="https://app.soundsystemgo.com/">Usar pelo navegador (iPhone)</a>
+  </main>
+  <script>
+    var ua = navigator.userAgent;
+    var isIphone = /iPhone|iPad|iPod/i.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+    var target = isIphone ? 'https://app.soundsystemgo.com/' : 'https://play.google.com/store/apps/details?id=com.soundsystemgo.app';
+    if (isIphone) document.getElementById('msg').textContent = 'No iPhone, use o app pelo navegador.';
+    setTimeout(function () { window.location.replace(target); }, 400);
+  </script>
+</body>
+</html>
