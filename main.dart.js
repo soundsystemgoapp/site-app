@@ -135701,7 +135701,7 @@ s.D(new A.be2(s,a))
 s.x.$1(new A.be3(s,a))},
 t(a){var s=null,r=t.a.a(A.w(a).c.h(0,A.T(t.S))),q=r.r,p=t.p,o=A.aJ(A.b([A.aS(B.je,q,s,16),B.dL,A.o("Raio de busca",s,s,s,s,s,A.v(s,s,r.b,s,s,s,s,s,s,s,s,13,s,s,B.bx,s,s,!0,s,s,s,s,s,s,s,s),s,s,s)],p),B.F,s,B.v,B.B,0,s),n=this.w
 n===$&&A.a()
-return new A.a8(B.C1,A.ae(A.b([A.aJ(A.b([o,A.o(""+B.p.aL(n)+" km",s,s,s,s,s,A.v(s,s,q,s,s,s,s,s,s,s,s,13,s,s,B.Q,s,s,!0,s,s,s,s,s,s,s,s),s,s,s)],p),B.F,s,B.eX,B.B,0,s),new A.Ry(this.w,this.gaIo(),5,100,19,s)],p),B.aJ,s,B.v,B.B,0,B.H),s)}}
+return new A.a8(B.C1,A.ae(A.b([A.aJ(A.b([o,A.o(""+B.p.aL(n)+" km",s,s,s,s,s,A.v(s,s,q,s,s,s,s,s,s,s,s,13,s,s,B.Q,s,s,!0,s,s,s,s,s,s,s,s),s,s,s)],p),B.F,s,B.eX,B.B,0,s),new A.Ry(this.w,this.gaIo(),5,300,59,s)],p),B.aJ,s,B.v,B.B,0,B.H),s)}}
 A.be2.prototype={
 $0(){return this.a.w=this.b},
 $S:0}
