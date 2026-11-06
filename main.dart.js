@@ -128590,8 +128590,7 @@ g=$.a08().h(0,h)
 if(g==null||!B.h.p(B.qx,g))continue
 if(B.h.p(j,g)||B.h.p(k,g))continue
 if(j.length<2)j.push(g)
-else if(k.length<2)k.push(g)
-else break
+else k.push(g)
 e.E(0,"genres")}m=a.at
 if(m!=null&&!f.V){f.ry=m
 e.E(0,"ticket")}if(!f.ry&&s.$2(f.gqo(),a.ax))e.E(0,"ticket")
@@ -128904,15 +128903,13 @@ if(p.p(0,"genres"))j.push(B.aaK)
 j.push(B.aB)
 j.push(A.aZc(A.dD(A.b([B.blr,A.dD(a4,a4,a4,a4,a4,a4,a4,a4,a4,A.u(a4,a4,n,a4,a4,a4,a4,a4,a4,a4,a4,12,a4,a4,a4,a4,a4,!0,a4,a4,a4,a4,a4,a4,a4,a4),"  (opcional)")],t.VO),a4,a4,a4,a4,a4,a4,a4,a4,a4,a4),A.u(a4,a4,h,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,!0,a4,a4,a4,a4,a4,a4,a4,a4),a4))
 j.push(B.aX)
-j.push(A.o("At\xe9 2 g\xeaneros que v\xe3o tocar um pouco. Quem filtrar por eles v\xea o evento numa se\xe7\xe3o \xe0 parte.",a4,a4,a4,a4,a4,A.u(a4,a4,n,a4,a4,a4,a4,a4,a4,a4,a4,11.5,a4,a4,a4,a4,a4,!0,a4,a4,a4,a4,a4,a4,a4,a4),a4,a4,a4))
+j.push(A.o("Os g\xeaneros que v\xe3o tocar um pouco. Quem filtrar por eles v\xea o evento numa se\xe7\xe3o \xe0 parte, no fim da lista.",a4,a4,a4,a4,a4,A.u(a4,a4,n,a4,a4,a4,a4,a4,a4,a4,a4,11.5,a4,a4,a4,a4,a4,!0,a4,a4,a4,a4,a4,a4,a4,a4),a4,a4,a4))
 j.push(B.aj)
 o=A.b([],g)
 for(k=a3.rx,f=0;f<11;++f){a1=B.qx[f]
 i=A.o(a1,a4,a4,a4,a4,a4,a4,a4,a4,a4)
 c=B.h.p(k,a1)
-if(!B.h.p(m,a1))b=!B.h.p(k,a1)&&k.length>=2
-else b=!0
-b=b?a4:new A.b9W(a3,a1)
+b=B.h.p(m,a1)?a4:new A.b9W(a3,a1)
 o.push(A.aDo(new A.a5("also-genre-"+a1,l),i,b,c))}j.push(A.eJ(B.bE,o,B.bR,8,8))
 j.push(B.bl)
 j.push(A.o("Ingresso",a4,a4,a4,a4,a4,A.u(a4,a4,h,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,a4,B.Q,a4,a4,!0,a4,a4,a4,a4,a4,a4,a4,a4),a4,a4,a4))
